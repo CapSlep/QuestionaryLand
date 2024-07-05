@@ -99,7 +99,7 @@ const questionsInit = () => {
         const buttonEl = document.createElement("button");
         buttonEl.classList.add("quiz__answer");
         buttonEl.innerText = ans;
-        buttonEl.style.backgroundColor = "#001b59";
+        buttonEl.style.backgroundColor = "#006da4";
         buttonEl.style.color = "white";
         buttonEl.style.borderRadius = "10px";
         buttonEl.style.fontSize = "16px";

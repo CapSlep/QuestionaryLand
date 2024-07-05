@@ -52,36 +52,42 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
       time: "Hace un día",
       header: "¡Es increíble!",
       product: "26468782",
-      review: "Como fan del fútbol durante muchos años, me sorprendió mucho la calidad de la camiseta de la selección nacional de España a un precio muy razonable 😊",
+      review: "“¡Me encanta mi zueco clásico Crocs! Son increíblemente cómodos e ideales para caminar y hacer jardinería. Ligero y fácil de limpiar 😊",
+      image: "./src/img/review1.jpg",
     },
     {
       name: "Lucas",
       time: "Hace dos días",
       header: "¡Genial! No tengo palabras.",
       product: "26468789",
-      review: "Decidí comprar la camiseta de la selección nacional de España por primera vez y ahora disfruto de ella cada vez que apoyo a mi equipo, gracias.",
+      review: "Compré Crocs para la playa, pero ahora los uso todos los días. Cómodos, no irritan y tus pies no sudan con ellos. Gran elección",
+      image: "./src/img/review2.jpg",
     },
     {
       name: "Valentina",
       time: "Hace dos días",
       header: "Simplemente genial.",
       product: "26468785",
-      review: "La calidad de la camiseta es increíble, y el tamaño es perfecto! Gracias, la recomendaré a mis amigos.",
+      review: "A mi hija le encantan los Crocs con los coloridos Jibbitz. No sólo son bonitos, sino también cómodos. Adecuado tanto para la escuela como para excursiones.",
+      image: "./src/img/review3.jpg",
     },
     {
       name: "Santiago",
       time: "Hace cuatro días",
       header: "Me gusta",
-      review: "Sinceramente, me encanta ver fútbol, y la nueva camiseta de la selección nacional de España era exactamente lo que necesitaba.",
+      review: "Al principio era escéptico, pero después del primer uso entendí por qué todo el mundo los ama tanto. Increíblemente cómodo y ligero. Excelente compra!",
+      image: "./src/img/review4.jpg",
     },
     {
       name: "Martina",
       time: "Hace siete días",
       header: "¡Guau, me encanta este producto!",
       product: "26468784",
-      review: "Al principio pensé que la camiseta era cara, pero afortunadamente la compré y ahora disfruto de los mejores partidos con ella. ¡Gracias!",
+      review: "¡Me encantan los Crocs! Son tan suaves y cómodos que puedo usarlos todo el día sin cansarme. Ideal para viajes y largas caminatas. ¡Se lo recomiendo a todos!",
+      image: "./src/img/review5.jpg",
     },
   ];
+
 
   const reviews = {
     reviews: reviewsArr,
@@ -94,7 +100,7 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
     _of: "Pregunta {1} de {2}: ",
     arr: [
       {
-        q: "¿Alguna vez has comprado camisetas de selecciones nacionales?",
+        q: "¿Has utilizado nuestros productos?",
         a: [
           "Sí, compro a menudo",
           "Sí, compro raramente",
@@ -102,12 +108,12 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
         ],
       },
       {
-        q: "¿Debería la UEFA continuar con este tipo de campañas publicitarias?",
+        q: "¿Nos recomendarías a tus amigos?",
         a: ["¡Sí, por supuesto!", "Sí, pero cambien el diseño de las camisetas", "No"],
       },
       {
-        q: "¿Recomendarías la camiseta de la selección nacional de España a tus amigos?",
-        a: ["Sí", "No"],
+        q: "¿Qué color de Crocs es el más popular este año?",
+        a: ["Negro", "Verde", "Blanco", "Rojo"],
       },
     ],
   };
@@ -215,12 +221,12 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
     steps: cartSteps,
     main: {
       title: "Detalles del pedido",
-      oldPrice: "€95.00",
-      newPrice: "€9.99",
+      oldPrice: "49.99€",
+      newPrice: "1.95€",
       size: "Talla",
       subTotal: {
         title: "Subtotal",
-        amount: "€9.99",
+        amount: "1.95€",
       },
       delivery: {
         title: "Entrega",
@@ -228,7 +234,7 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
       },
       total: {
         title: "Total",
-        amount: "€9.99",
+        amount: "1.95€",
       },
       checkoutButton: "Paga tu pedido",
     },
@@ -236,22 +242,22 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
 
   const products = [
     {
-      id: "26468784",
-      name: "Camiseta adidas primera equipación España 24",
-      miniImg: "./src/img/slide3.png",
-      images: ["./src/img/slide3.png"],
-    },
-    {
       id: "26468782",
-      name: "Camiseta adidas primera equipación España 24",
-      miniImg: "./src/img/slide1.png",
-      images: ["./src/img/slide1.png"],
+      name: "BAYA CLOG",
+      miniImg: "./src/img/slide1.jpg",
+      images: ["./src/img/slide1.jpg"],
     },
     {
       id: "26468783",
-      name: "Camiseta adidas primera equipación España 24",
-      miniImg: "./src/img/slide2.png",
-      images: ["./src/img/slide2.png"],
+      name: "ECHO CLOG",
+      miniImg: "./src/img/slide2.jpg",
+      images: ["./src/img/slide2.jpg"],
+    },
+    {
+      id: "26468784",
+      name: "CLASSIC CLOG",
+      miniImg: "./src/img/slide3.jpg",
+      images: ["./src/img/slide3.jpg"],
     },
   ];
 
@@ -304,7 +310,7 @@ const lsGetSelectedProduct = () => {
 
 
   ///
-  if (ind == null) {
+  if (ind === null) {
     ind = products[0].id;
     lsSelectProduct(ind);
   }

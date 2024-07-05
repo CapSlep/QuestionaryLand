@@ -117,23 +117,23 @@ const changeProductInfo = () => {
 
 
   if (localStorage.getItem("__selected_product") === "26468782") {
-    mainProductName.innerText = "Equipación España 24";
-    mainProductOldPrice.innerText = "€95.00";
-    mainProductNewPrice.innerText = "€9.99";
+    mainProductName.innerText = "BAYA CLOG";
+    mainProductOldPrice.innerText = "49.99€";
+    mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "Camiseta adidas primera equipación España 24";
+      "Make a comfy Crocs statement with the Crocs Baya Clog.";
   } else if (localStorage.getItem("__selected_product") === "26468783") {
-    mainProductName.innerText = "Equipación España 24";
-    mainProductOldPrice.innerText = "€95.00";
-    mainProductNewPrice.innerText = "€9.99";
+    mainProductName.innerText = "ECHO CLOG";
+    mainProductOldPrice.innerText = "49.99€";
+    mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "Camiseta adidas primera equipación España 24";
+      "The Echo Collection is for those who want comfort without compromising their look.";
   } else if (localStorage.getItem("__selected_product") === "26468784") {
-    mainProductName.innerText = "Equipación España 24";
-    mainProductOldPrice.innerText = "€95.00";
-    mainProductNewPrice.innerText = "€9.99";
+    mainProductName.innerText = "CLASSIC CLOG";
+    mainProductOldPrice.innerText = "49.99€";
+    mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "Camiseta adidas primera equipación España 24";
+      "It’s the iconic clog that started a comfort revolution around the world!";
   }
 
   console.log(localStorage.getItem("__selected_product"));
@@ -176,7 +176,7 @@ const productVariantsInit = () => {
   descEl.setAttribute("id", "selectProductDesc");
 
 
-  for (let index = 0; index < 1; index++) {
+  for (let index = 0; index < products.length; index++) {
     const newEl = document.createElement("div");
     const imgWrapperEl = document.createElement("div");
     imgWrapperEl.classList.add("productVariant");
@@ -363,6 +363,7 @@ const reviewsInit = () => {
     if (r?.image != null) {
       const imgEl = document.createElement("img");
       imgEl.style.maxHeight = "200px";
+      imgEl.style.padding = "10px 0";
       imgEl.src = r.image;
       imgEl.classList.add("mt-2");
 
@@ -515,7 +516,7 @@ const mainInit = () => {
 
   const additionalDescription = document.createElement("div");
   additionalDescription.id = "additionalDescription";
-  additionalDescription.innerText = "Responde una breve encuesta y consigue un descuento en la camiseta adidas de local de España";
+  additionalDescription.innerText = "Responda una breve encuesta y obtenga un descuento en el par de CROCS que elija";
   additionalDescription.style.fontSize = "18px";
   additionalDescription.style.color = "#d72727";
   additionalDescription.style.fontWeight = "bold";
