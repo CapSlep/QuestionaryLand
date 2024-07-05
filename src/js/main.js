@@ -121,19 +121,19 @@ const changeProductInfo = () => {
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "Make a comfy Crocs statement with the Crocs Baya Clog.";
+      "Haz una declaración cómoda de Crocs con el Crocs Baya Clog.";
   } else if (localStorage.getItem("__selected_product") === "26468783") {
     mainProductName.innerText = "ECHO CLOG";
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "The Echo Collection is for those who want comfort without compromising their look.";
+      "La Colección Echo es para quienes buscan comodidad sin comprometer su apariencia.";
   } else if (localStorage.getItem("__selected_product") === "26468784") {
     mainProductName.innerText = "CLASSIC CLOG";
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "It’s the iconic clog that started a comfort revolution around the world!";
+      "¡Es el zueco icónico que inició una revolución del confort en todo el mundo!";
   }
 
   console.log(localStorage.getItem("__selected_product"));

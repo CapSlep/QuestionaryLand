@@ -109,7 +109,7 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
       },
       {
         q: "¿Nos recomendarías a tus amigos?",
-        a: ["¡Sí, por supuesto!", "Sí, pero cambien el diseño de las camisetas", "No"],
+        a: ["¡Sí, por supuesto!", "Sí, pero cambia el diseño de los crocs.", "No"],
       },
       {
         q: "¿Qué color de Crocs es el más popular este año?",
@@ -262,7 +262,7 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
   ];
 
   const footer = {
-    cr: "© 2024, UEFA and Fanatics, Inc.. All rights reserved. No portion of this site may be reproduced or duplicated without the express permission of UEFA and/or Fanatics (as applicable). The words UEFA, UEFA Nations League, UEFA Nations League Finals, Finalissima, UEFA U21 Championships, UEFA EURO and UEFA Women’s EURO and all other UEFA marks, names, mascots and trophies are the property, registered trademarks, designs and/or copyright of UEFA. Store maintained and operated by Fanatics (International) Limited.",
+    cr: "© 2024 Crocs Retail, LLC",
   };
 
   const pathImgBox = {
