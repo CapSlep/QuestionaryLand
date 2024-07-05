@@ -117,23 +117,23 @@ const changeProductInfo = () => {
 
 
   if (localStorage.getItem("__selected_product") === "26468782") {
-    mainProductName.innerText = "BAYA CLOG";
+    mainProductName.innerText = "Zuecos unisex Classic NEGRO";
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "Haz una declaración cómoda de Crocs con el Crocs Baya Clog.";
+      "Crocs Classic es el zapato perfecto para cualquier ocasión. Completamente moldeado con material Croslite™";
   } else if (localStorage.getItem("__selected_product") === "26468783") {
-    mainProductName.innerText = "ECHO CLOG";
+    mainProductName.innerText = "Zuecos unisex Classic ROSA";
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "La Colección Echo es para quienes buscan comodidad sin comprometer su apariencia.";
+      "Disfruta de un ajuste a tu medida, resistente al agua y con ventilación para mayor transpirabilidad.";
   } else if (localStorage.getItem("__selected_product") === "26468784") {
-    mainProductName.innerText = "CLASSIC CLOG";
+    mainProductName.innerText = "Zuecos unisex Classic BLANCO";
     mainProductOldPrice.innerText = "49.99€";
     mainProductNewPrice.innerText = "1.95€";
     mainProductText.innerHTML =
-      "¡Es el zueco icónico que inició una revolución del confort en todo el mundo!";
+      "Increíblemente ligeras y súper divertidas en los pies.";
   }
 
   console.log(localStorage.getItem("__selected_product"));

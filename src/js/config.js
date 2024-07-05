@@ -67,7 +67,7 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
       name: "Valentina",
       time: "Hace dos días",
       header: "Simplemente genial.",
-      product: "26468785",
+      product: "26468783",
       review: "A mi hija le encantan los Crocs con los coloridos Jibbitz. No sólo son bonitos, sino también cómodos. Adecuado tanto para la escuela como para excursiones.",
       image: "./src/img/review3.jpg",
     },
@@ -243,19 +243,19 @@ Participaste en la promoción de Stanley: tienes la oportunidad de comprar el te
   const products = [
     {
       id: "26468782",
-      name: "BAYA CLOG",
+      name: "Zuecos unisex Classic NEGRO",
       miniImg: "./src/img/slide1.jpg",
       images: ["./src/img/slide1.jpg"],
     },
     {
       id: "26468783",
-      name: "ECHO CLOG",
+      name: "Zuecos unisex Classic ROSA",
       miniImg: "./src/img/slide2.jpg",
       images: ["./src/img/slide2.jpg"],
     },
     {
       id: "26468784",
-      name: "CLASSIC CLOG",
+      name: "Zuecos unisex Classic BLANCO",
       miniImg: "./src/img/slide3.jpg",
       images: ["./src/img/slide3.jpg"],
     },
